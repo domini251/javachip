@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Omok {
+public class Omok {
+    public static void main(String []args) {
+
+    }
 }
