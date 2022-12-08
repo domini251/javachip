@@ -8,9 +8,9 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
     private ImageIcon white = new ImageIcon();
     private OmokRegisterInterface r;
     private OmokFrameInterface f;
+    private int onRock = 0;
     private int x;
     private int y;
-    private int onRock = 0;
 
     /**
      * 오목칸의 상태를 나타냄. 눌렸을 때 플레이어에 따라 맞는 색 돌을 정해줌.
@@ -20,8 +20,8 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
      */
     public OmokBoardButton(OmokFrameInterface frame, int x_pos, int y_pos) {
         f = frame;
-        x = x_pos;
-        y = y_pos;
+        x= x_pos;
+        y= y_pos;
         Image N = none.getImage();
         N = N.getScaledInstance(60,60,Image.SCALE_SMOOTH);
         none = new ImageIcon(N);
@@ -64,6 +64,6 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
      */
     public void actionPerformed(ActionEvent e) {
         setEnabled(false);
-
+        f.setStone(x, y);
     }
 }
