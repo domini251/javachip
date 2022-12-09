@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc178f66-693f-429c-bc19-cec818d9dbb4" name="변경" comment="Button finished">
-      <change afterPath="$PROJECT_DIR$/src/OmokFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OmokBoardButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OmokBoardButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardButtonInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OmokBoardButtonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OmokBoardButtonInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OmokFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OmokFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OmokPlayerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OmokPlayerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OmokRegisterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OmokRegisterInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670485048692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Button finished">
+      <created>1670560685159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670560685159</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Button finished">
+      <created>1670560796786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670560796786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

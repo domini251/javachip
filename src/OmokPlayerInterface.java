@@ -7,13 +7,13 @@ public interface OmokPlayerInterface {
 	 * @param name 아이디
 	 * @return 데이터베이스에 있는것과 일치하는지
 	 */
-	public boolean login(String name);
+	boolean login(String name);
 
-	public int[] gameStart();
+	int[] gameStart();
 	/**
 	 * 새로운 계정을 만들어줌
 	 * @param name 아이디
 	 * @return 성공했는지 실패했는지 (예외처리하기)
 	 */
-	public boolean newAccount(String name);
+	boolean newAccount(String name);
 }
