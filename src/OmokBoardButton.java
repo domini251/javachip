@@ -42,7 +42,6 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
      * @return
      */
     public void buttonReset() {
-        onRock = 0;
         setEnabled(true);
     }
     /**
