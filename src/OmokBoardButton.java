@@ -8,7 +8,6 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
     private ImageIcon white = new ImageIcon();
     private OmokRegisterInterface r;
     private OmokFrameInterface f;
-    private int onRock = 0;
     private int x;
     private int y;
 
@@ -37,18 +36,6 @@ public class OmokBoardButton extends JButton implements OmokBoardButtonInterface
         else if (f.userNumber() == 2)
             setDisabledSelectedIcon(white);
         setPreferredSize(new Dimension(60,60));
-    }
-    /**
-     * 이 위치에 어떤 돌이 있는지 확인
-     * @return 있다면 참 없다면 거짓
-     */
-    public boolean exist() {
-        if (onRock == 0)
-            return false;
-        else {
-            onRock = 1;
-            return true;
-        }
     }
     /**
      * 버튼의 상태를 바꿔줌

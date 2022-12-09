@@ -11,4 +11,5 @@ public interface OmokRegisterInterface {
 	 * 파일에 로그인 정보를 저장해둠
 	 */
 	public void saveDatabase();
+
 }
